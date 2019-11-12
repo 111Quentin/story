@@ -12,8 +12,6 @@
 // [ 应用入口文件 ]
 namespace think;
 
-// 定义常量
-// define('ROOT_PATH','../application/');
 
 // 加载基础文件
 require __DIR__ . '/../thinkphp/base.php';
