@@ -2,32 +2,22 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006-2015 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
+// | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
+namespace think\captcha;
 
-// use think\Route;
+use think\facade\Config;
 
-
-// Admin
-Route::group('admin',function(){
-    Route::get('/login','admin/Login/login');
-    Route::get('/verify','admin/Login/verify');
-});
-
-
-
-
-// Route::get('think', function () {
-//     return 'hello,ThinkPHP5!';
-// });
-
-// Route::get('hello/:name', 'index/hello');
-
-// return [
-
-// ];
+class CaptchaController
+{
+    public function index($id = "")
+    {
+        $captcha = new Captcha((array) Config::pull('captcha'));
+        return $captcha->entry($id);
+    }
+}

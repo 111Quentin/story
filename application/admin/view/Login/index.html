@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/static/X-admin/css/font.css">
     <link rel="stylesheet" href="/static/X-admin/css/login.css">
 	  <link rel="stylesheet" href="/static/X-admin/css/xadmin.css">
-    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/X-admin/js/jquery.min.js"></script>
     <script src="/static/X-admin/lib/layui/layui.js" charset="utf-8"></script>
     <!--[if lt IE 9]>
       <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -24,43 +24,43 @@
         <div id="darkbannerwrap"></div>
         
         <form method="post" class="layui-form" action="/admin/Login/doLogin">
-            <input name="username" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
+            <input name="username" placeholder="用户名"  type="text"  class="layui-input" >
             <hr class="hr15">
-            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
+            <input name="password"  placeholder="密码"  type="password" class="layui-input">
             <hr class="hr15">
+
+            <div>
+                <input name="verify"  placeholder="验证码"  type="text" class="layui-input">
+                <br>
+                <img id="code" src="{:url('admin/Login/verify')}" onclick="this.src = this.src" />
+                <hr class="hr15">
+            </div>
             <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
             <hr class="hr20" >
         </form>
     </div>
 
     <script>
-        $(function  () {
+        $(function() {
+
             layui.use('form', function(){
               var form = layui.form;
-              // layer.msg('玩命卖萌中', function(){
-              //   //关闭后的操作
-              //    console.log(123);
-              //   });
-
-              //自定义验证规则
-              form.verify({
-                    username: function (value) {
-                        if (value.length < 6) {
-                            return '用户名至少得6个字符啊';
-                        }
-                    },
-                    password: [/(.+){6,12}$/, '密码必须6到12位'],
-                    // verity: [/(.+){4,6}$/, '验证码必须是6位']
-                });
 
               //监听提交
-              // form.on('submit(doLogin)', function(data){
-              //   // alert(888)
-              //   layer.msg(JSON.stringify(data.field),function(){
-              //       location.href='index.html'
-              //   });
-              //   return false;
-              // });
+              form.on('submit(login)', function(data){
+
+                // console.log(JSON.stringify(data.field.username));
+                if(data.field.username.length < 6 || data.field.username > 12){
+                    layer.msg('用户名必须是6-12位长度');
+                    return false;
+                }
+
+                if(data.field.password.length < 6 || data.field.password > 16){
+                    layer.msg('密码长度必须是6-12位');
+                    return false;
+                }
+               
+              });
             });
         })
     </script>
