@@ -2022,3 +2022,1596 @@
 )
 [ info ] [ PARAM ] array (
 )
+---------------------------------------------------------------
+
+[2019-11-15T16:32:30+08:00] 127.0.0.1 GET www.story.com/admin/Index/welcome1.html
+[运行时间：0.944636s] [吞吐率：1.06req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:30+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list.html
+[运行时间：0.208999s] [吞吐率：4.78req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:30+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list1.html
+[运行时间：0.175959s] [吞吐率：5.68req/s] [内存消耗：2,064.85kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:30+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-del.html
+[运行时间：0.171596s] [吞吐率：5.83req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:31+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-list.html
+[运行时间：0.179652s] [吞吐率：5.57req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:34+08:00] 127.0.0.1 GET www.story.com/admin/Index/index
+[运行时间：0.320357s] [吞吐率：3.12req/s] [内存消耗：2,240.57kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:32:35+08:00] 127.0.0.1 GET www.story.com/admin/Index/welcome1.html
+[运行时间：0.192915s] [吞吐率：5.18req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:35+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list.html
+[运行时间：0.201290s] [吞吐率：4.97req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:35+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list1.html
+[运行时间：0.164320s] [吞吐率：6.09req/s] [内存消耗：2,064.85kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:35+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-del.html
+[运行时间：0.165480s] [吞吐率：6.04req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-list.html
+[运行时间：0.182205s] [吞吐率：5.49req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573802523',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:45+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.650304s] [吞吐率：1.54req/s] [内存消耗：2,046.65kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806755',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:32:50+08:00] 127.0.0.1 POST www.story.com/admin/Login/doLogin
+[运行时间：0.202016s] [吞吐率：4.95req/s] [内存消耗：2,074.10kb] [文件加载：69]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806765',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.story.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'quentin',
+  'password' => '123456',
+  'verify' => 'mwiar',
+)
+[ error ] [0]致命错误: Call to undefined method app\admin\controller\Manager::where()[D:\working\story\admin-story\application\admin\controller\Login.php:43]
+---------------------------------------------------------------
+
+[2019-11-15T16:33:18+08:00] 127.0.0.1 POST www.story.com/admin/Login/doLogin
+[运行时间：0.565270s] [吞吐率：1.77req/s] [内存消耗：3,384.22kb] [文件加载：82]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806765',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.story.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'quentin',
+  'password' => '123456',
+  'verify' => 'mwiar',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\working\story\admin-story\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.083697s ] mysql:host=127.0.0.1;dbname=story;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manager` [ RunTime:0.099666s ]
+[ sql ] [ SQL ] SELECT * FROM `manager` WHERE  `username` IN ('username','=','quentin')  AND `password` IN ('password','=','123456') LIMIT 1 [ RunTime:0.016130s ]
+---------------------------------------------------------------
+
+[2019-11-15T16:33:21+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.260323s] [吞吐率：3.84req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806765',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:27+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.253495s] [吞吐率：3.94req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806802',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:35+08:00] 127.0.0.1 POST www.story.com/admin/Login/doLogin
+[运行时间：0.206729s] [吞吐率：4.84req/s] [内存消耗：3,388.40kb] [文件加载：81]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806802',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.story.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'quentin',
+  'password' => '123456',
+  'verify' => 'anstb',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010438s ] mysql:host=127.0.0.1;dbname=story;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manager` [ RunTime:0.005042s ]
+[ sql ] [ SQL ] SELECT * FROM `manager` WHERE  `username` IN ('username','=','quentin')  AND `password` IN ('password','=','123456') LIMIT 1 [ RunTime:0.001607s ]
+---------------------------------------------------------------
+
+[2019-11-15T16:33:35+08:00] 127.0.0.1 GET www.story.com/admin/Index/index
+[运行时间：0.136922s] [吞吐率：7.30req/s] [内存消耗：2,060.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806802',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:33:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/welcome1.html
+[运行时间：0.173469s] [吞吐率：5.76req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list.html
+[运行时间：0.171706s] [吞吐率：5.82req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list1.html
+[运行时间：0.161704s] [吞吐率：6.18req/s] [内存消耗：2,064.85kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-del.html
+[运行时间：0.163509s] [吞吐率：6.12req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:33:36+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-list.html
+[运行时间：0.172330s] [吞吐率：5.80req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:00+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-role.html
+[运行时间：0.159270s] [吞吐率：6.28req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:10+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.173744s] [吞吐率：5.76req/s] [内存消耗：2,160.46kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806816',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:34:34+08:00] 127.0.0.1 GET www.story.com/
+[运行时间：0.201978s] [吞吐率：4.95req/s] [内存消耗：2,065.86kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'admin/Login/login',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806851',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\Login\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:34:35+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.263562s] [吞吐率：3.79req/s] [内存消耗：2,046.65kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806851',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:41+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.232854s] [吞吐率：4.29req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:42+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.246869s] [吞吐率：4.05req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:44+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.223114s] [吞吐率：4.48req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:45+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.223992s] [吞吐率：4.46req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:46+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.220530s] [吞吐率：4.53req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:47+08:00] 127.0.0.1 GET www.story.com/admin/verify.html
+[运行时间：0.232996s] [吞吐率：4.29req/s] [内存消耗：2,046.80kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/verify',
+  'route' => 'admin/Login/verify',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:55+08:00] 127.0.0.1 POST www.story.com/admin/Login/doLogin
+[运行时间：0.180681s] [吞吐率：5.53req/s] [内存消耗：3,388.40kb] [文件加载：81]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'upgrade-insecure-requests' => '1',
+  'origin' => 'http://www.story.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '45',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'quentin',
+  'password' => '123456',
+  'verify' => 'vxkp4',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000705s ] mysql:host=127.0.0.1;dbname=story;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manager` [ RunTime:0.004789s ]
+[ sql ] [ SQL ] SELECT * FROM `manager` WHERE  `username` IN ('username','=','quentin')  AND `password` IN ('password','=','123456') LIMIT 1 [ RunTime:0.001641s ]
+---------------------------------------------------------------
+
+[2019-11-15T16:34:55+08:00] 127.0.0.1 GET www.story.com/admin/Index/index
+[运行时间：0.147041s] [吞吐率：6.80req/s] [内存消耗：2,240.57kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806875',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:34:55+08:00] 127.0.0.1 GET www.story.com/admin/Index/welcome1.html
+[运行时间：0.178735s] [吞吐率：5.59req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:56+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list.html
+[运行时间：0.178481s] [吞吐率：5.60req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:56+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-list1.html
+[运行时间：0.166024s] [吞吐率：6.02req/s] [内存消耗：2,064.85kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:56+08:00] 127.0.0.1 GET www.story.com/admin/Index/member-del.html
+[运行时间：0.166116s] [吞吐率：6.02req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:56+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-list.html
+[运行时间：0.166858s] [吞吐率：5.99req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:56+08:00] 127.0.0.1 GET www.story.com/admin/Index/admin-role.html
+[运行时间：0.245122s] [吞吐率：4.08req/s] [内存消耗：2,064.84kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:34:57+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.161727s] [吞吐率：6.18req/s] [内存消耗：2,004.71kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806896',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:35:38+08:00] 127.0.0.1 GET www.story.com/admin/manager/admin-edit.html
+[运行时间：0.191406s] [吞吐率：5.22req/s] [内存消耗：2,064.85kb] [文件加载：68]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806930',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-11-15T16:35:43+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.149973s] [吞吐率：6.67req/s] [内存消耗：2,004.77kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806930',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:35:44+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.137252s] [吞吐率：7.29req/s] [内存消耗：2,004.77kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806944',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:35:45+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.159630s] [吞吐率：6.26req/s] [内存消耗：2,004.77kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573806945',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:39:08+08:00] 127.0.0.1 GET www.story.com/admin/Index/index
+[运行时间：0.143695s] [吞吐率：6.96req/s] [内存消耗：2,060.88kb] [文件加载：66]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807055',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:39:09+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.158516s] [吞吐率：6.31req/s] [内存消耗：2,160.58kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807149',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:39:11+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.139674s] [吞吐率：7.16req/s] [内存消耗：2,004.71kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807149',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:39:21+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.153343s] [吞吐率：6.52req/s] [内存消耗：2,160.46kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807153',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:39:36+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.182178s] [吞吐率：5.49req/s] [内存消耗：2,160.46kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807164',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:45:29+08:00] 127.0.0.1 GET www.story.com/admin/Index/index
+[运行时间：0.149624s] [吞吐率：6.68req/s] [内存消耗：2,063.04kb] [文件加载：66]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807178',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:45:31+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.159189s] [吞吐率：6.28req/s] [内存消耗：2,162.82kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807530',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/Index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:45:32+08:00] 127.0.0.1 GET www.story.com/admin/manager/add
+[运行时间：0.156566s] [吞吐率：6.39req/s] [内存消耗：2,151.09kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/add',
+  'route' => 'admin/Manager/add',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807532',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\add.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:51:15+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.142087s] [吞吐率：7.04req/s] [内存消耗：2,007.07kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807533',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:51:17+08:00] 127.0.0.1 GET www.story.com/admin/manager/list
+[运行时间：0.137669s] [吞吐率：7.26req/s] [内存消耗：2,007.07kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/list',
+  'route' => 'admin/Manager/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807876',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:51:57+08:00] 127.0.0.1 GET www.story.com/admin/manager/add
+[运行时间：0.149953s] [吞吐率：6.67req/s] [内存消耗：2,003.34kb] [文件加载：65]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/add',
+  'route' => 'admin/Manager/add',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807877',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\add.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-11-15T16:55:58+08:00] 127.0.0.1 GET www.story.com/admin/manager/add
+[运行时间：0.157008s] [吞吐率：6.37req/s] [内存消耗：2,151.09kb] [文件加载：67]
+[ info ] [ LANG ] D:\working\story\admin-story\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/manager/add',
+  'route' => 'admin/Manager/add',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=1370745856; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1573480951,1573797910; PHPSESSID=vtbkeasljlqnc8sgqessd04kum; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1573807918',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.story.com/admin/manager/list',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.story.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\working\story\admin-story\application\admin\view\manager\add.html [ array (
+) ]

@@ -5,7 +5,7 @@ use think\Request;
 use think\Controller;
 use think\captcha\Captcha;
 
-use app\admin\model\Manager;
+use app\admin\model\ManagerModel;
 class Login extends Controller
 {
     /**
@@ -40,7 +40,7 @@ class Login extends Controller
         $where = [];
         $where['username'] = ['username','=',$username];
         $where['password'] = ['password','=',$password];
-        $manager_info = Manager::where($where)->find();
+        $manager_info = ManagerModel::where($where)->find();
         if(!$manager_info){
             return $this->error("用户名或密码错误!");
         }else{

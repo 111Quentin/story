@@ -3,7 +3,7 @@
 namespace app\admin\model;
 use think\Validate;
 use think\Model;
-class Manager extends Model{
+class ManagerModel extends Model{
     protected $pk = 'id'; //定义主键ID
 
     // 设置当前模型对应的完整数据表名称

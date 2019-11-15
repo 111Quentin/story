@@ -56,8 +56,8 @@
                 }
 
                 console.log(data.field.password.length);
-                if(data.field.password.length < 6 || data.field.password.length > 12){
-                    layer.msg('密码长度必须是6-12位');
+                if(data.field.password.length < 6 || data.field.password.length > 16){
+                    layer.msg('密码长度必须是6-16位');
                     console.log(data.field.password.length);
                     return false;
                 }
