@@ -1,3 +1,4 @@
+<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\Login\index.html";i:1573799175;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -32,7 +33,7 @@
             <div>
                 <input name="verify"  placeholder="验证码"  type="text" class="layui-input">
                 <br>
-                <img id="code" src="{:url('admin/Login/verify')}" onclick="this.src = this.src" />
+                <img id="code" src="<?php echo url('admin/Login/verify'); ?>" onclick="this.src = this.src" />
                 <hr class="hr15">
             </div>
             <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">

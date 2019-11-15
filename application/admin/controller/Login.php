@@ -1,8 +1,11 @@
 <?php 
 namespace app\admin\controller;
 
+use think\Request;
 use think\Controller;
 use think\captcha\Captcha;
+
+use app\admin\model\Manager;
 class Login extends Controller
 {
     /**
@@ -26,16 +29,28 @@ class Login extends Controller
      public function doLogin(){
         //获取POST提交传递过来的参数
         $data = $this->request->post();
+        $username = $this->request->post('username');
+        $password = $this->request->post('password');
+        $verify = $this->request->post('verify');
 
-        $rules = [
-            'username|用户名' => 'require|length:6,12',
-            'password|密码' => 'require|length:6,12',
-            // 'verify|验证码' => 'require|captcha'
-        ];
+        // 获取参数(也可以用Request类 $this->request->param())
+     
 
-        $res = $this->validate($data, $rules);
-        if($res){
-            
+        // 查询管理员信息
+        $where = [];
+        $where['username'] = ['username','=',$username];
+        $where['password'] = ['password','=',$password];
+        $manager_info = Manager::where($where)->find();
+        if(!$manager_info){
+            return $this->error("用户名或密码错误!");
+        }else{
+            // 校验验证码
+            if(!captcha_check($verify)){
+                return $this->error("验证码错误!");
+            }else{
+                return $this->redirect('/admin/Index/index');
+            }
         }
+        
     }
 }

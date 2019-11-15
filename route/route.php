@@ -10,15 +10,14 @@
 // +----------------------------------------------------------------------
 
 
-// use think\Route;
-
+// 默认路由
+Route::get('/','admin/Login/login');
 
 // Admin
 Route::group('admin',function(){
     Route::get('/login','admin/Login/login');
     Route::get('/verify','admin/Login/verify');
 });
-
 
 
 
