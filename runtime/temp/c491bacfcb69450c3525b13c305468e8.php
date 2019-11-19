@@ -1,4 +1,4 @@
-<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\manager\add.html";i:1573808134;}*/ ?>
+<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\manager\add.html";i:1573808569;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     
@@ -35,11 +35,11 @@
                       </div>
                   </div>
                   <div class="layui-form-item">
-                      <label for="phone" class="layui-form-label">
+                      <label for="mobile" class="layui-form-label">
                           <span class="x-red">*</span>手机
                       </label>
                       <div class="layui-input-inline">
-                          <input type="text" id="phone" name="phone" required="" lay-verify="phone"
+                          <input type="text" id="mobile" name="mobile" required="" lay-verify="mobile"
                           autocomplete="off" class="layui-input">
                       </div>
                       <div class="layui-form-mid layui-word-aux">

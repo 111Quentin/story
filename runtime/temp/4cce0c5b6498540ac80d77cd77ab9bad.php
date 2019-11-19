@@ -1,4 +1,4 @@
-<?php /*a:1:{s:70:"D:\working\story\admin-story\application\admin\view\manager\index.html";i:1573807486;}*/ ?>
+<?php /*a:1:{s:70:"D:\working\story\admin-story\application\admin\view\manager\index.html";i:1574129673;}*/ ?>
 <!DOCTYPE html>
 <html class="x-admin-sm">
     <head>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="layui-card-header">
                             <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                            <button class="layui-btn" onclick="xadmin.open('添加用户','/admin/manager/add',800,400)"><i class="layui-icon"></i>添加</button>
+                            <button class="layui-btn" onclick="xadmin.open('添加用户','/admin/manager/create',800,500)"><i class="layui-icon"></i>添加</button>
                         </div>
                         <div class="layui-card-body ">
                             <table class="layui-table layui-form">

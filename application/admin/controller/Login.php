@@ -18,7 +18,15 @@ class Login extends Controller
 
 
     public function verify(){
-        $captcha = new Captcha();
+        $config = array(
+            // 验证码字体大小(px)
+            'fontSize' => 25,
+            // 验证码长度
+            'length'   => 4,
+            // 验证成功后是否重置
+            'fontttf'  => 'C:\Windows\Fonts\1.ttf',
+        );
+        $captcha = new Captcha($config);
         return $captcha->entry();
     }
 

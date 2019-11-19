@@ -1,4 +1,4 @@
-<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\index\index.html";i:1573806831;}*/ ?>
+<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\index\index.html";i:1574127337;}*/ ?>
 <!doctype html>
 <html class="x-admin-sm">
     <head>
@@ -20,7 +20,7 @@
         <![endif]-->
         <script>
             // 是否开启刷新记忆tab功能
-            // var is_remember = false;
+            var is_remember = true;
         </script>
     </head>
     <body class="index">
@@ -174,7 +174,7 @@
                             <i class="iconfont nav_right">&#xe697;</i></a>
                         <ul class="sub-menu">
                             <li>
-                                <a onclick="xadmin.add_tab('管理员列表','/admin/manager/list')">
+                                <a onclick="xadmin.add_tab('管理员列表','/admin/manager/index')">
                                     <i class="iconfont">&#xe6a7;</i>
                                     <cite>管理员列表</cite></a>
                             </li>

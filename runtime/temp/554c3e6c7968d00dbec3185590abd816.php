@@ -1,4 +1,4 @@
-<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\Login\index.html";i:1573799175;}*/ ?>
+<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\Login\index.html";i:1574132621;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -56,10 +56,10 @@
                     return false;
                 }
 
-                console.log(data.field.password.length);
-                if(data.field.password.length < 6 || data.field.password.length > 12){
-                    layer.msg('密码长度必须是6-12位');
-                    console.log(data.field.password.length);
+                // console.log(data.field.password.length);
+                if(data.field.password.length < 6 || data.field.password.length > 16){
+                    layer.msg('密码长度必须是6-16位');
+                    // console.log(data.field.password.length);
                     return false;
                 }
                
