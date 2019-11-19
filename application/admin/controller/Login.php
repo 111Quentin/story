@@ -24,7 +24,7 @@ class Login extends Controller
             // 验证码长度
             'length'   => 4,
             // 验证成功后是否重置
-            'fontttf'  => 'C:\Windows\Fonts\1.ttf',
+            'fontttf'  => '1.ttf',
         );
         $captcha = new Captcha($config);
         return $captcha->entry();
@@ -39,6 +39,7 @@ class Login extends Controller
         $data = $this->request->post();
         $username = $this->request->post('username');
         $password = $this->request->post('password');
+        $password = md5("story_2019".md5($password));
         $verify = $this->request->post('verify');
 
         // 获取参数(也可以用Request类 $this->request->param())
