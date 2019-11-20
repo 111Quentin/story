@@ -23,6 +23,8 @@ class Login extends Controller
             'fontSize' => 25,
             // 验证码长度
             'length'   => 4,
+            // 是否画混淆曲线
+            'useCurve' => false,
             // 验证成功后是否重置
             'fontttf'  => '1.ttf',
         );

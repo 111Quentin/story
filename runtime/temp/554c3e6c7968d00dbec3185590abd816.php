@@ -1,4 +1,4 @@
-<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\Login\index.html";i:1574143957;}*/ ?>
+<?php /*a:1:{s:68:"D:\working\story\admin-story\application\admin\view\Login\index.html";i:1574148055;}*/ ?>
 <!doctype html>
 <html  class="x-admin-sm">
 <head>
@@ -30,12 +30,14 @@
             <input name="password"  placeholder="密码"  type="password" class="layui-input">
             <hr class="hr15">
 
-            <div>
+            <div style="width:50%;display:inline-block;float:left;">
                 <input name="verify"  placeholder="验证码"  type="text" class="layui-input">
                 <br>
-                <img id="code" src="<?php echo url('admin/Login/verify'); ?>" onclick="this.src = this.src" />
-                <hr class="hr15">
             </div>
+            <div style="width: 50%;display: inline-block;">
+                <img id="code" style="width: 95%;margin-left: 5px;" src="<?php echo url('admin/Login/verify'); ?>" onclick="this.src = this.src" />
+            </div>
+            <hr class="hr15">
             <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
             <hr class="hr20" >
         </form>
@@ -51,8 +53,8 @@
               form.on('submit(login)', function(data){
 
                 // console.log(JSON.stringify(data.field.username));
-                if(data.field.username.length < 6 || data.field.username.length > 12){
-                    layer.msg('用户名必须是6-12位长度');
+                if(data.field.username.length < 4 || data.field.username.length > 12){
+                    layer.msg('用户名必须是5-12位长度');
                     return false;
                 }
 
@@ -63,8 +65,8 @@
                     return false;
                 }
                
-                if(data.field.verify.length != 5){
-                    layer.msg('验证码长度必须是5位');
+                if(data.field.verify.length != 4){
+                    layer.msg('验证码长度必须是4位');
                     return false;
                 }
               });

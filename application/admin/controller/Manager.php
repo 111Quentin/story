@@ -16,7 +16,11 @@ class Manager extends Controller
      */
     public function index()
     {
-        
+        // 获取管理员信息
+        $manager = new ManagerModel();
+        $data = $manager->select();
+        // 变量输出模板
+        $this->assign('data',$data);
         return $this->fetch();
     }
 

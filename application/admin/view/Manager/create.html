@@ -105,9 +105,10 @@
                 layer = layui.layer;
                 //自定义验证规则
                 form.verify({
-                    nikename: function(value) {
-                        if (value.length < 5) {
-                            return '昵称至少得5个字符啊';
+                    username: function(value) {
+                        // console.log(123);
+                        if (value.length < 5 || value.length > 12) {
+                            return '用户名必须是5-12位长度';
                         }
                     },
                     pass: [/(.+){6,16}$/, '密码必须6到16位'],
@@ -120,6 +121,10 @@
 
                 //监听提交
                 form.on('submit(add)',function(data) {
+
+                    // 补充校验用户名
+                    console.log(data.username);
+
                     // 使用ajax发送http POST请求
                     $.ajax({
                         data: data.field,
