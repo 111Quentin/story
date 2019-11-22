@@ -59,9 +59,22 @@ class Login extends Controller
             if(!captcha_check($verify)){
                 return $this->error("验证码错误!");
             }else{
+                // 保存到session
+                session('admin_id',$manager_info->id);
+                session('admin_name',$manager_info->username);
                 return $this->redirect('/admin/Index/index');
             }
         }
         
+    }
+
+    /**
+     * 注销
+     * @return void
+     */
+    public function logout(){
+        session('admin_id', null);
+        session('admin_name', null);
+        return $this->redirect('/admin/Login/index');
     }
 }

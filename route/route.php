@@ -17,14 +17,9 @@ Route::get('/','admin/Login/login');
 Route::group('admin',function(){
     Route::get('/login','admin/Login/login');
     Route::get('/verify','admin/Login/verify');
-    
+    Route::get('/logout','admin/Login/logout');
     // 管理员
     Route::resource('/manager','admin/Manager');
-
-    // 管理员列表
-    // Route::get('/manager/list','admin/Manager/index');
-    // 添加管理员页面
-    // Route::get('/manager/add','admin/Manager/add');
 });
 
 

@@ -80,7 +80,10 @@ class Manager extends Controller
      */
     public function edit($id)
     {
-        //
+        // 获取当前管理员信息
+        $manager = ManagerModel::where('id','=',$id)->find()->toArray();
+        $this->assign('manager',$manager);
+        return $this->fetch();
     }
 
     /**
@@ -92,7 +95,8 @@ class Manager extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        //获取，传递过来的参数
+        dump($request->param());
     }
 
     /**

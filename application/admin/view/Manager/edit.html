@@ -21,28 +21,29 @@
         <div class="layui-fluid">
             <div class="layui-row">
                 <form class="layui-form">
+                <!-- 循环遍历 -->
                   <div class="layui-form-item">
                       <label for="username" class="layui-form-label">
                           <span class="x-red">*</span>登录名
                       </label>
                       <div class="layui-input-inline">
-                          <input type="text" id="username" name="username" required="" lay-verify="username"
-                          autocomplete="off" class="layui-input">
+                          <input type="text" id="username" name="username" required="" lay-verify="required"
+                          autocomplete="off" class="layui-input" value="{$manager.username}" disabled>
                       </div>
                       <div class="layui-form-mid layui-word-aux">
                           <span class="x-red">*</span>将会成为您唯一的登入名
                       </div>
                   </div>
                   <div class="layui-form-item">
-                      <label for="mobile" class="layui-form-label">
+                      <label for="phone" class="layui-form-label">
                           <span class="x-red">*</span>手机
                       </label>
                       <div class="layui-input-inline">
-                          <input type="text" id="phone" name="mobile" required="" lay-verify="phone"
-                          autocomplete="off" class="layui-input">
+                          <input type="text" id="phone" name="phone" required="" lay-verify="phone"
+                          autocomplete="off" class="layui-input" value="{$manager.mobile}">
                       </div>
                       <div class="layui-form-mid layui-word-aux">
-                          <span class="x-red">*</span>绑定手机号
+                          <span class="x-red">*</span>将会成为您唯一的登入名
                       </div>
                   </div>
                   <div class="layui-form-item">
@@ -51,26 +52,26 @@
                       </label>
                       <div class="layui-input-inline">
                           <input type="text" id="L_email" name="email" required="" lay-verify="email"
-                          autocomplete="off" class="layui-input">
+                          autocomplete="off" class="layui-input" value="{$manager.email}">
                       </div>
                       <div class="layui-form-mid layui-word-aux">
                           <span class="x-red">*</span>绑定邮箱地址
                       </div>
                   </div>
                   <div class="layui-form-item">
-                      <label class="layui-form-label"><span class="x-red">*</span>性别</label>
-                      <div class="layui-input-block">
-                        <input type="checkbox" name="gender" lay-skin="primary" title="男" checked="" value="1">
-                        <input type="checkbox" name="gender" lay-skin="primary" title="女" value="2">
-                        <input type="checkbox" name="gender" lay-skin="primary" title="未知"  value="3">
-                      </div>
-                  </div>
+                    <label class="layui-form-label"><span class="x-red">*</span>性别</label>
+                    <div class="layui-input-block">
+                      <input type="checkbox" name="gender" lay-skin="primary" title="男" {if $manager.gender == 1} checked {/if}  value="1">
+                      <input type="checkbox" name="gender" lay-skin="primary" title="女" {if $manager.gender == 2} checked {/if}  value="2">
+                      <input type="checkbox" name="gender" lay-skin="primary" title="未知" {if $manager.gender == 3} checked {/if} value="3">
+                    </div>
+                </div>
                   <div class="layui-form-item">
                       <label for="L_pass" class="layui-form-label">
-                          <span class="x-red">*</span>密码
+                          密码
                       </label>
                       <div class="layui-input-inline">
-                          <input type="password" id="L_pass" name="password" required="" lay-verify="pass"
+                          <input type="password" id="L_pass" name="password" lay-verify="pass"
                           autocomplete="off" class="layui-input">
                       </div>
                       <div class="layui-form-mid layui-word-aux">
@@ -79,42 +80,38 @@
                   </div>
                   <div class="layui-form-item">
                       <label for="L_repass" class="layui-form-label">
-                          <span class="x-red">*</span>确认密码
+                          确认密码
                       </label>
                       <div class="layui-input-inline">
-                          <input type="password" id="L_repass" name="repass" required="" lay-verify="repass"
+                          <input type="password" id="L_repass" name="repass" lay-verify="repass"
                           autocomplete="off" class="layui-input">
                       </div>
                       <div class="layui-form-mid layui-word-aux">
-                        必须跟密码保持一致       
-                     </div>
+                            必须跟密码保持一致       
+                         </div>
                   </div>
                   <div class="layui-form-item">
                       <label for="L_repass" class="layui-form-label">
                       </label>
-                      <button  class="layui-btn"  lay-filter="add" lay-submit="">
-                          增加
+                      <button  class="layui-btn" lay-filter="modify" lay-submit="">
+                          修改
                       </button>
                   </div>
+
+                  <!-- 隐藏域 -->
+                  <input type="hidden"  name="id" value="{$manager.id}">
               </form>
             </div>
         </div>
-        <script>
-
-            // 使用layui
-            layui.use(['form', 'layer'],function() {
+        <script>layui.use(['form', 'layer'],
+            function() {
                 $ = layui.jquery;
                 var form = layui.form,
                 layer = layui.layer;
+
                 //自定义验证规则
                 form.verify({
-                    username: function(value) {
-                        // console.log(123);
-                        if (value.length < 5 || value.length > 12) {
-                            return '用户名必须是5-12位长度';
-                        }
-                    },
-                    pass: [/(.+){6,16}$/, '密码必须6到16位'],
+                    pass: [/(.+){6,12}$/, '密码必须6到12位'],
                     repass: function(value) {
                         if ($('#L_pass').val() != $('#L_repass').val()) {
                             return '两次密码不一致';
@@ -123,18 +120,19 @@
                 });
 
                 //监听提交
-                form.on('submit(add)',function(data) {
-
+                form.on('submit(modify)',function(data) {
+                    console.log(data.field);
+                    
                     // 使用ajax发送http POST请求
                     $.ajax({
                         data: data.field,
                         type: "POST",
                         dataType: "JSON",
-                        url: "/admin/Manager/save",
+                        url: "/admin/Manager/update",
                         success:function(result){
-                            // console.log(result);
+                            console.log(result);
                            if(result == '1'){
-                                layer.alert("新增管理员成功", {icon: 6},
+                                layer.alert("修改成功", {icon: 6},
                                 function() {
                                     //关闭当前frame
                                     xadmin.close();
@@ -146,7 +144,7 @@
                         error:function(result){
                             console.log(result);
                             if(result == '0'){
-                                layer.alert("新增管理员失败！", {icon: 5},
+                                layer.alert("修改失败！", {icon: 5},
                                 function() {
                                     //关闭当前frame
                                     xadmin.close();
@@ -158,8 +156,8 @@
                     });
                     return false;
                 });
-            });
-        </script>
+
+            });</script>
         <script>var _hmt = _hmt || []; (function() {
                 var hm = document.createElement("script");
                 hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";

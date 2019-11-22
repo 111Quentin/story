@@ -19,7 +19,6 @@
         <div class="x-nav">
           <span class="layui-breadcrumb">
             <a href="">首页</a>
-            <a href="">演示</a>
             <a>
               <cite>导航元素</cite></a>
           </span>
@@ -78,7 +77,7 @@
                                   <td>{$v.username}</td>
                                   <td>{$v.mobile}</td>
                                   <td>{$v.email}</td>
-                                  <td>{if $v.gender == 1}男 {elseif $v == 2}女{else /}未知{/if}</td>
+                                  <td>{if $v.gender == 1}男 {elseif $v.gender == 2}女{else /}未知{/if}</td>
                                   <td>超级管理员</td>
                                   <td>{$v.created_at}</td>
                                   <td class="td-status">
