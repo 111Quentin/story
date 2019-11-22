@@ -96,7 +96,15 @@ class Manager extends Controller
     public function update(Request $request, $id)
     {
         //获取，传递过来的参数
-        dump($request->param());
+        $post_data = $request->param();
+        $manager = new ManagerModel();
+        $update_data = array(
+            'phone'      =>     $post_data['phone'],
+            'email'      =>     $post_data['email'],
+            'gender'     =>     $post_data['gender'],
+        );
+        $res = $manager->save($update_data,['id' => $post_data['id']]);
+        return $res ? 1 : 0;
     }
 
     /**
@@ -107,6 +115,7 @@ class Manager extends Controller
      */
     public function delete($id)
     {
-        //
+        $res = ManagerModel::where('id','=',$id)->delete();
+        return $res ? 1 : 0;
     }
 }
