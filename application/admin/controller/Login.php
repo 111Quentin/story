@@ -6,6 +6,9 @@ use think\Controller;
 use think\captcha\Captcha;
 
 use app\admin\model\ManagerModel;
+
+use think\facade\Session;
+
 class Login extends Controller
 {
     /**
@@ -13,6 +16,8 @@ class Login extends Controller
      * @return void
      */
     public function login(){
+        echo Session::get('admin_id');
+       
         return $this->fetch('Login/index');
     }
 
@@ -73,8 +78,10 @@ class Login extends Controller
      * @return void
      */
     public function logout(){
-        session('admin_id', null);
-        session('admin_name', null);
+        session('admin_id', '');
+        session('admin_name', '');
+        Session::delete('admin_id');
+        Session::delete('admin_name');
         return $this->redirect('/admin/Login/index');
     }
 }

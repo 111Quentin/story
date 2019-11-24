@@ -9,6 +9,8 @@ class Index extends Controller
      * @return void
      */
     public function index(){
+         // 检查是否登录
+         check();
         return $this->fetch();
     }
 }

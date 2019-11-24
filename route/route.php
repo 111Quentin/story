@@ -17,7 +17,6 @@ Route::get('/','admin/Login/login');
 Route::group('admin',function(){
     Route::get('/login','admin/Login/login');
     Route::get('/verify','admin/Login/verify');
-    Route::get('/logout','admin/Login/logout');
     // 管理员
     Route::resource('/manager','admin/Manager');
 });

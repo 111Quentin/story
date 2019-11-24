@@ -10,3 +10,9 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+function check(){
+    if(!Session::get('admin_id') || !Session::get('admin_name')){
+        $this->redirect('/admin/Login/index');
+    }
+    echo Session::get('admin_id');
+}

@@ -16,6 +16,7 @@ class Manager extends Controller
      */
     public function index()
     {
+
         // 获取管理员信息
         $manager = new ManagerModel();
         $data = $manager->select();
@@ -31,7 +32,7 @@ class Manager extends Controller
      */
     public function create()
     {
-        
+        // 显示页面
         return $this->fetch();
     }
 
