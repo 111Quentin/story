@@ -19,9 +19,20 @@ class Manager extends Controller
 
         // 获取管理员信息
         $manager = new ManagerModel();
-        $data = $manager->select();
+
+        // 定义每页显示最大条数
+        $limit = 1;
+
+        $data = $manager::where('id','>',0)->paginate($limit,false,['query' => request()->param(),'type' => 'page\Page','var_page'  => 'page']);
+        $page = $data->render();
+        
+        
         // 变量输出模板
-        $this->assign('data',$data);
+        $this->assign([
+            'limit' =>$limit,
+			'page' =>$page,
+            'data' => $data
+        ]);
         return $this->fetch();
     }
 

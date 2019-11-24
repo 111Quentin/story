@@ -15,9 +15,7 @@ class Login extends Controller
      * 登录页面
      * @return void
      */
-    public function login(){
-        echo Session::get('admin_id');
-       
+    public function login(){       
         return $this->fetch('Login/index');
     }
 
@@ -82,6 +80,7 @@ class Login extends Controller
         session('admin_name', '');
         Session::delete('admin_id');
         Session::delete('admin_name');
+        dump(123);
         return $this->redirect('/admin/Login/index');
     }
 }

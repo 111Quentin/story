@@ -103,17 +103,20 @@
                               </tbody>
                             </table>
                         </div>
-                        <div class="layui-card-body ">
+                        <!-- <div class="layui-card-body ">
                             <div class="page">
                                 <div>
-                                  <a class="prev" href="">&lt;&lt;</a>
+                                  <a class="prev" href="">上一页</a>
                                   <a class="num" href="">1</a>
                                   <span class="current">2</span>
                                   <a class="num" href="">3</a>
                                   <a class="num" href="">489</a>
-                                  <a class="next" href="">&gt;&gt;</a>
+                                  <a class="next" href="">下一页</a>
                                 </div>
                             </div>
+                        </div> -->
+                        <div id="page" class="page" style="margin-left: 15px;">
+                            {$page|raw}
                         </div>
                     </div>
                 </div>
@@ -183,9 +186,6 @@
                   location.reload();
                 },
               });
-
-              // $(obj).parents("tr").remove();
-              // layer.msg('已删除!',{icon:1,time:1000});
           });
       }
 
@@ -202,6 +202,8 @@
         });
       }
 
+
+    // 分页
 
 
     </script>
